@@ -1,3 +1,48 @@
 body{
     margin: 0;
+    background-color: lightgrey;
+    font-family: sans-serif;
+    
+}
+
+h1,h2 {
+    color: red
+}
+header {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: dashed red;
+
+}
+nav {
+    margin-top: 40px;
+}
+
+aside {
+    display: absolute;
+    left: 0;
+    height: 100vh;
+    width: 300px;
+    background-color: gray;
+}
+
+section {
+    position: relative;
+    left: 300px;
+
+}
+
+footer{
+    position: absolute;
+    left: 300px; 
+}
+
+button {
+    border: solid  red 1px;
+    background-color:  gray;
+    text-transform: capitalize;
+    border-radius: 5px;
 }
